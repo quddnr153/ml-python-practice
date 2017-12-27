@@ -30,3 +30,9 @@ process:
 
 post-condition:
 * k 개의 가장 유사한 데이터들 중 majority vote 를 통해 새로운 데이터 분류를 결정
+
+## Lessons learned
+* Instance-based learning (사례 기반)
+* 다루기 쉬운 데이터 사례가 필요
+* 데이터 집합 전체를 다루므로 큰 데이터 집합을 처리하기 위해서는 큰 저장소가 필요
+* 모든 데이터에 대해 거리 측정 -> 데이터의 크기가 커지면 사용하기 어려움
